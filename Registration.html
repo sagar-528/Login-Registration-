@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="Registration.js"></script>
+</head>
+<body>
+    <section class="login-page">
+        <form>
+             <div class="box">
+                    <div class="form-head">
+                          <h2>Registration</h2>
+                    </div>
+                    <div class="form-body">
+                          <input type="text" placeholder="Enter name" id="username" required class="input"/>
+                          <input type="text" placeholder="Phone Number" id="phone" required class="input"/>
+                          <input type="text" placeholder="E-mail Id" id="email" required class="input"/>
+                          <input type="Password" placeholder="Password" id="password" required class="input"/>
+                    </div>
+                    <span>
+                        <input type="checkbox" id="admin"/>
+                        <label for="type" style="color: whitesmoke;"> Admin</label>
+                        <input type="checkbox" id="user"/>
+                        <label for="type" style="color: whitesmoke;"> User</label>
+                    </span>
+                    <div class="form-footer">
+                          <button type="submit" onclick="Registration()" style="margin-top: 20px;">Sign In</button>
+                    </div>
+             </div>
+        </form>
+   </section>
+</body>
+</html>
